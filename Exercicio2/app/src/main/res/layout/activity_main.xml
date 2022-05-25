@@ -50,15 +50,15 @@
         android:textAllCaps="true"
         android:textSize="12sp" />
 
-   <Button
-       android:id="@+id/botao_mensagem"
-       android:layout_margin="@dimen/margem_15"
-       android:backgroundTint="@color/cor_botao"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:textSize="14sp"
-       android:textAllCaps="true"
-       android:text="@string/nome_botao"
-       />
+    <Button
+        android:id="@+id/botao_mensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margem_15"
+        android:backgroundTint="@color/cor_botao"
+        android:text="@string/nome_botao"
+        android:textAllCaps="true"
+        android:textSize="14sp" />
 
 </LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Minha Musica Favorita</string>
+    <string name="descricao_da_imagem">Na foto tem duas milheres e dois homens e com letras grandes escrito Banda Djavú</string>
+    <string name="nome_musica">Meteoro</string>
+    <string name="Parte_letra" >\n
+         E foi assim que começou nossa história de amor \n
+        Na batida desse som que você me conquistou \n
+        Envolvendo e enlouquecendo, eu nem pude perceber \n
+        Meteoro de mansinho fez meu corpo estremecer
+            \n\
+        Eu acho que vou me apaixonar \n
+        Meteoro de mansinho que chegou para ficar \n
+        Me chama que vou me apaixonar \n
+        Meteoro que fascina e faz a gente delirar
+    </string>
+</resources>
