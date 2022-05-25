@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margem_20"
+        android:text="@string/titulo_foto_do_pet"
+        android:textAllCaps="true"
+        android:textSize="@dimen/tamanho_titulo_16" />
+
+    <ImageView
+        android:layout_width="@dimen/tamanho_200"
+        android:layout_height="@dimen/tamanho_200"
+        android:layout_gravity="center"
+        android:contentDescription="@string/descricao_foto_gato"
+        android:src="@drawable/foto_do_meu_ultimo_gatinho" />
+
+    <TextView
+        android:id="@+id/nome_pet"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/texto_nome_pet"
+        android:textAllCaps="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/raca_pet"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margem_15"
+        android:text="@string/texto_raca"
+        android:textAllCaps="true"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/idade_pet"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/texto_idade"
+        android:textAllCaps="true"
+        android:textSize="12sp" />
+
+   <Button
+       android:id="@+id/botao_mensagem"
+       android:layout_margin="@dimen/margem_15"
+       android:backgroundTint="@color/cor_botao"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="14sp"
+       android:textAllCaps="true"
+       android:text="@string/nome_botao"
+       />
+
+</LinearLayout>

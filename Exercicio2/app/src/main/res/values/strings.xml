@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Meu Pet</string>
+    <string name="titulo_foto_do_pet">ESSA É A FOTO DO MEU PET</string>
+    <string name="descricao_foto_gato">Na foto tem um gato branco dormindo em cima de uma cadeira</string>
+    <string name="texto_nome_pet">Nome do pet: Branquinho</string>
+    <string name="texto_raca">Raça pet: Siamês</string>
+    <string name="texto_idade">Idade pet: morreu</string>
+    <string name="nome_botao">MENSAGEM</string>
+</resources>
